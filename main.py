@@ -54,7 +54,7 @@ async def check_new_match():
         print(f"error checking match: {e}")
 
 async def send_match_embed(match_token):
-    channel = bot.get_channel(DISCORD_CHANNEL_ID)
+    channel = bot.get_channel(channel_id)
     
     embed = discord.Embed(
         title="match completed",
