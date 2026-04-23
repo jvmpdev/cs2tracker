@@ -44,12 +44,23 @@ async def check_new_match():
 
         print(response.status_code)
         print(response.text)
+
+        response2 = requests.get(
+            "https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/",
+            params={
+                "key": steam_api_key,
+                "steamid": steam_id,
+                "appid": 730
+            }
+        )
+
+        print(response2.text)
+
         data = response.json()
 
         if "result" in data and data["result"].get("nextcode") != "n/a":
             new_token = data["result"]["nextcode"]
             update_last_token(new_token)
-
             print(f"New match found: {new_token}")
             await send_match_embed(new_token)
         else:
