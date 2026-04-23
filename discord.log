@@ -205,25 +205,27 @@
 [2026-04-23 17:04:04] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 [2026-04-23 17:04:45] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 29.
 [2026-04-23 17:04:45] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
--23 17:03:19] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 29.
-[2026-04-23 17:03:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
-[2026-04-23 17:04:00] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 29.
+[2026-04-23 17:05:26] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 29.
+[2026-04-23 17:05:26] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+-23 17:04:00] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 29.
 [2026-04-23 17:04:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 [2026-04-23 17:04:42] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 29.
 [2026-04-23 17:04:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 [2026-04-23 17:04:49] [DEBUG   ] discord.gateway: Received WSMessage(type=<WSMsgType.CLOSED: 257>, data=None, extra=None)
-[2026-04-23 17:04:49] [DEBUG   ] discord.gateway: Websocket closed with 1006, attempting a reconnect.
-[2026-04-23 17:04:49] [DEBUG   ] discord.client: Got a request to RESUME the websocket.
-[2026-04-23 17:04:49] [DEBUG   ] discord.client: Dispatching event disconnect
-[2026-04-23 17:04:50] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway-us-east1-d.discord.gg
-[2026-04-23 17:04:50] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-arm-us-east1-d-jt0q",{"micros":0.0}]']}}
+[2026-04-23 17:04:49] [DEBUG   ] discord.gateway: Websocket closed with 1006, attempting a re[2026-04-23 17:05:19] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 30.
+[2026-04-23 17:05:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-04-23 17:06:00] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 30.
+[2026-04-23 17:06:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+arm-us-east1-d-jt0q",{"micros":0.0}]']}}
 [2026-04-23 17:04:50] [DEBUG   ] discord.gateway: Shard ID None has sent the RESUME payload.
 [2026-04-23 17:04:50] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 [2026-04-23 17:04:50] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'RESUMED', 's': 30, 'op': 0, 'd': {'_trace': ['["gateway-prd-arm-us-east1-d-jt0q",{"micros":14617,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":11706,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"sessions-prd-gcp-us-east1-d-122",{"micros":17}]}]']}}
 [2026-04-23 17:04:50] [DEBUG   ] discord.client: Dispatching event socket_event_type
 [2026-04-23 17:04:50] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session f03ff3f3813f171b692d08e3a7cea4c6.
 [2026-04-23 17:04:50] [DEBUG   ] discord.client: Dispatching event resumed
- 'display_name': 'harroider', 'discriminator': '0', 'collectibles': None, 'bot': False, 'avatar_decoration_data': None, 'avatar': '0fe7b3eb6d5fa7cf20add122bbde448c'}, 'roles': ['1240683123512184922', '1335218434241200212', '1231641784015130717', '1325089057629405335'], 'premium_since': None, 'pending': False, 'nick': 'Harroider ‘HEHEHEHEHE’ Yoo', 'mute': False, 'joined_at': '2024-05-30T11:22:51.860000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'user_id': '210662135943004162', 'suppress': False, 'session_id': '5e291365990bb3afa26de2afec25bf3b', 'self_video': False, 'self_stream': True, 'self_mute': False, 'self_deaf': False, 'request_to_speak_timestamp': None, 'mute': False, 'guild_id': '333265368674205696', 'discoverable': True, 'deaf': False, 'channel_id': '773194952083374121'}}
+[2026-04-23 17:05:31] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 30.
+[2026-04-23 17:05:31] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+30717', '1325089057629405335'], 'premium_since': None, 'pending': False, 'nick': 'Harroider ‘HEHEHEHEHE’ Yoo', 'mute': False, 'joined_at': '2024-05-30T11:22:51.860000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'user_id': '210662135943004162', 'suppress': False, 'session_id': '5e291365990bb3afa26de2afec25bf3b', 'self_video': False, 'self_stream': True, 'self_mute': False, 'self_deaf': False, 'request_to_speak_timestamp': None, 'mute': False, 'guild_id': '333265368674205696', 'discoverable': True, 'deaf': False, 'channel_id': '773194952083374121'}}
 [2026-04-23 17:00:08] [DEBUG   ] discord.client: Dispatching event socket_event_type
 [2026-04-23 17:00:08] [DEBUG   ] discord.client: Dispatching event voice_state_update
 [2026-04-23 17:00:22] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 26.
@@ -255,3 +257,7 @@
 [2026-04-23 17:03:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 [2026-04-23 17:04:30] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 30.
 [2026-04-23 17:04:30] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-04-23 17:05:11] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 30.
+[2026-04-23 17:05:11] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-04-23 17:05:52] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 30.
+[2026-04-23 17:05:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
