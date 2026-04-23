@@ -35,7 +35,7 @@ async def check_new_match():
                 "key": steam_api_key,
                 "steamid": steam_id,
                 "steamidkey": steam_auth_code,
-                "knownmatchid": last_match_token
+                "knowncode": last_match_token
             }
         )
 
