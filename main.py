@@ -38,6 +38,10 @@ async def check_new_match():
                 "knownmatchid": last_match_token
             }
         )
+
+        print(response.status_code)
+        print(response.text)  # add this
+        data = response.json()
         
         data = response.json()
         
