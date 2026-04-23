@@ -54,15 +54,6 @@ async def check_new_match():
             }
         )
 
-        response3 = requests.get(
-            "https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/",
-            params={
-                "key": steam_api_key,
-                "steamid": steam_id,
-                "appid": 730
-            }
-        )
-        print(response3.text)
         print(response2.text)
 
         data = response.json()
